@@ -1,0 +1,43 @@
+.navbar{
+    background-color: #000000;
+    position: static;
+    }
+    .navbar-brand{
+      color: white;
+      font-weight: bold;
+      font-size: 35px;
+    }
+    .navbar-content{
+      display: flex;
+      color: white;
+      list-style: none;
+      justify-content: center;
+      align-items: center;
+    }
+    .navbar-content li{
+      padding: 10px 20px;
+      /* font-weight: ; */
+      font-size: 20px;
+      text-decoration: none;
+      /* font-family: "sansserif"; */
+    }
+
+    #nav-con{
+      color:white;
+      text-decoration: none;
+    }
+    .Eclipse-img{
+      justify-content: end;
+     text-align: right;
+     padding-right: 100px;
+    }
+    .eclipse-image{
+      transition: all .2s ease-in-out;
+   
+    -webkit-animation:spin 8s linear infinite;
+    -moz-animation:spin 8s linear infinite;
+    animation:spin 8s linear infinite;
+    }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
